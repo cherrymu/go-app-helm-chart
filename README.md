@@ -2,6 +2,16 @@
 
 This is a repo containing Helm Chart for Deploying a simple Go CRUD API connecting to a postgresql database.
 
+Prerequisite: Create a scheme in your postgresql database before install the helm chart
+```
+CREATE TABLE movies (
+    id SERIAL,
+    movieID varchar(50) NOT NULL,
+    movieName varchar(50) NOT NULL,
+    PRIMARY KEY (id)
+);
+```
+
 To install this chart on your kubernetes enviroment, please follow the below instructions 
 
 Step 1: Add the Helm repo 
