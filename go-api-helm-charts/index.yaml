@@ -3,13 +3,13 @@ entries:
   go-api:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2022-01-18T11:32:18.864548+05:30"
+    created: "2022-01-18T11:29:34.660798+05:30"
     description: A Helm chart for Kubernetes for deploying simple CRUD API developed
       in Go connecting to a managed postgresql database
     digest: d00f4515692cbd432cb95aeeefb64c11cd11aa04b18172a28f045110a173a845
     name: go-api
     type: application
     urls:
-    - https://cherrymu.github.io/go-app-helm-chart/go-api-helm-charts/go-api-0.1.0.tgz
+    - https://cherrymu.github.io/go-app-helm-chart/go-api-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-18T11:32:18.86318+05:30"
+generated: "2022-01-18T11:29:34.659292+05:30"
